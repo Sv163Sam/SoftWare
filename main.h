@@ -23,7 +23,7 @@ private:
     int capacity = 2;
 
 public:
-    Graph(int, int, int, int, int);
+    Graph(int, int, int, int);
     void write_in_file();
     void create_tables();
     void print(std::vector<std::vector<std::pair<int, int>>>);
